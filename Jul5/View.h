@@ -13,6 +13,9 @@
     UITextView *textView;
     CGRect border;
     UIButton *button;
+    BOOL typeMode;
 }
+
+- (void) touchUpInside: (id) sender;
 
 @end

@@ -15,7 +15,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Text Box Initialization code
-        border = CGRectMake(0, 0, 320, 100);
+        border = CGRectMake(0, 40, self.bounds.size.width, self.bounds.size.height - 40);
         // Can we init a textview with a dynamically sized frame?
 		textView = [[UITextView alloc] initWithFrame: border];
 		textView.backgroundColor = [UIColor clearColor];
@@ -24,7 +24,7 @@
 		textView.editable = YES;
 		
 		textView.text =
-        @"You can type to edit the text or draw with your finger or stylus.\n"
+        @"Type here..."
         ;
         
 		[self addSubview: textView];
@@ -38,26 +38,48 @@
 		//Center the button in the view.
 		CGRect b = self.bounds;
 		CGSize s = CGSizeMake(200, 40);	//size of button
-        
+         
 		button.frame = CGRectMake(
                                   b.origin.x + (b.size.width - s.width) / 2,
-                                  b.origin.y + (b.size.height - s.height) / 2,
+                                  0,
                                   s.width,
                                   s.height
                                   );
         
 		[button setTitleColor: [UIColor redColor] forState: UIControlStateNormal];
-		[button setTitle: @"Type or Draw" forState: UIControlStateNormal];
+		[button setTitle: @"Switch to Draw" forState: UIControlStateNormal];
         
-		[button addTarget: [UIApplication sharedApplication].delegate
+		[button addTarget: self
                    action: @selector(touchUpInside:)
          forControlEvents: UIControlEventTouchUpInside
          ];
+        
+        typeMode = YES;
         
 		[self addSubview: button];
 
     }
     return self;
+}
+
+
+- (void) touchUpInside: (id) sender {
+	//The sender is the button that was pressed.
+    
+	NSLog(@"The \"%@\" button was pressed.",
+		  [sender titleForState: UIControlStateNormal]);
+    
+    if (typeMode) {
+        [button setTitle: @"Switch to Type" forState:UIControlStateNormal];
+        textView.editable = false;
+        [textView setHidden:YES];
+    }
+    else {
+        [button setTitle: @"Switch to Draw" forState:UIControlStateNormal];
+        textView.editable = true;
+        [textView setHidden:NO];
+    }
+    typeMode = !typeMode;
 }
 
 
