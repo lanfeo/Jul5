@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA67E1915A4AB4D00E5BFFD /* MasterView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA67E1815A4AB4D00E5BFFD /* MasterView.m */; };
+		ABA67E1D15A4AC3000E5BFFD /* OtherView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA67E1C15A4AC3000E5BFFD /* OtherView.m */; };
+		ABB475B515A4928C0053396A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB475B415A4928C0053396A /* UIKit.framework */; };
+		ABB475B715A4928C0053396A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB475B615A4928C0053396A /* Foundation.framework */; };
+		ABB475B915A4928C0053396A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB475B815A4928C0053396A /* CoreGraphics.framework */; };
+		ABB475BF15A4928C0053396A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABB475BD15A4928C0053396A /* InfoPlist.strings */; };
+		ABB475C115A4928C0053396A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB475C015A4928C0053396A /* main.m */; };
+		ABB475C515A4928C0053396A /* Jul5AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB475C415A4928C0053396A /* Jul5AppDelegate.m */; };
+		ABB475CD15A492AE0053396A /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB475CC15A492AE0053396A /* View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABA67E1715A4AB4C00E5BFFD /* MasterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterView.h; sourceTree = "<group>"; };
+		ABA67E1815A4AB4D00E5BFFD /* MasterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterView.m; sourceTree = "<group>"; };
+		ABA67E1B15A4AC3000E5BFFD /* OtherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherView.h; sourceTree = "<group>"; };
+		ABA67E1C15A4AC3000E5BFFD /* OtherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherView.m; sourceTree = "<group>"; };
+		ABB475B015A4928C0053396A /* Jul5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jul5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB475B415A4928C0053396A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABB475B615A4928C0053396A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABB475B815A4928C0053396A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABB475BC15A4928C0053396A /* Jul5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jul5-Info.plist"; sourceTree = "<group>"; };
+		ABB475BE15A4928C0053396A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABB475C015A4928C0053396A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABB475C215A4928C0053396A /* Jul5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jul5-Prefix.pch"; sourceTree = "<group>"; };
+		ABB475C315A4928C0053396A /* Jul5AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jul5AppDelegate.h; sourceTree = "<group>"; };
+		ABB475C415A4928C0053396A /* Jul5AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jul5AppDelegate.m; sourceTree = "<group>"; };
+		ABB475CB15A492AE0053396A /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		ABB475CC15A492AE0053396A /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB475AD15A4928C0053396A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB475B515A4928C0053396A /* UIKit.framework in Frameworks */,
+				ABB475B715A4928C0053396A /* Foundation.framework in Frameworks */,
+				ABB475B915A4928C0053396A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB475A515A4928C0053396A = {
+			isa = PBXGroup;
+			children = (
+				ABB475BA15A4928C0053396A /* Jul5 */,
+				ABB475B315A4928C0053396A /* Frameworks */,
+				ABB475B115A4928C0053396A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB475B115A4928C0053396A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB475B015A4928C0053396A /* Jul5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB475B315A4928C0053396A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABB475B415A4928C0053396A /* UIKit.framework */,
+				ABB475B615A4928C0053396A /* Foundation.framework */,
+				ABB475B815A4928C0053396A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABB475BA15A4928C0053396A /* Jul5 */ = {
+			isa = PBXGroup;
+			children = (
+				ABB475C315A4928C0053396A /* Jul5AppDelegate.h */,
+				ABB475C415A4928C0053396A /* Jul5AppDelegate.m */,
+				ABB475CB15A492AE0053396A /* View.h */,
+				ABB475CC15A492AE0053396A /* View.m */,
+				ABA67E1715A4AB4C00E5BFFD /* MasterView.h */,
+				ABA67E1815A4AB4D00E5BFFD /* MasterView.m */,
+				ABA67E1B15A4AC3000E5BFFD /* OtherView.h */,
+				ABA67E1C15A4AC3000E5BFFD /* OtherView.m */,
+				ABB475BB15A4928C0053396A /* Supporting Files */,
+			);
+			path = Jul5;
+			sourceTree = "<group>";
+		};
+		ABB475BB15A4928C0053396A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABB475BC15A4928C0053396A /* Jul5-Info.plist */,
+				ABB475BD15A4928C0053396A /* InfoPlist.strings */,
+				ABB475C015A4928C0053396A /* main.m */,
+				ABB475C215A4928C0053396A /* Jul5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB475AF15A4928C0053396A /* Jul5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB475C815A4928C0053396A /* Build configuration list for PBXNativeTarget "Jul5" */;
+			buildPhases = (
+				ABB475AC15A4928C0053396A /* Sources */,
+				ABB475AD15A4928C0053396A /* Frameworks */,
+				ABB475AE15A4928C0053396A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jul5;
+			productName = Jul5;
+			productReference = ABB475B015A4928C0053396A /* Jul5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB475A715A4928C0053396A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Goldman Sachs";
+			};
+			buildConfigurationList = ABB475AA15A4928C0053396A /* Build configuration list for PBXProject "Jul5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABB475A515A4928C0053396A;
+			productRefGroup = ABB475B115A4928C0053396A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB475AF15A4928C0053396A /* Jul5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB475AE15A4928C0053396A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB475BF15A4928C0053396A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB475AC15A4928C0053396A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB475C115A4928C0053396A /* main.m in Sources */,
+				ABB475C515A4928C0053396A /* Jul5AppDelegate.m in Sources */,
+				ABB475CD15A492AE0053396A /* View.m in Sources */,
+				ABA67E1915A4AB4D00E5BFFD /* MasterView.m in Sources */,
+				ABA67E1D15A4AC3000E5BFFD /* OtherView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABB475BD15A4928C0053396A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB475BE15A4928C0053396A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABB475C615A4928C0053396A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABB475C715A4928C0053396A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABB475C915A4928C0053396A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jul5/Jul5-Prefix.pch";
+				INFOPLIST_FILE = "Jul5/Jul5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABB475CA15A4928C0053396A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jul5/Jul5-Prefix.pch";
+				INFOPLIST_FILE = "Jul5/Jul5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB475AA15A4928C0053396A /* Build configuration list for PBXProject "Jul5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB475C615A4928C0053396A /* Debug */,
+				ABB475C715A4928C0053396A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB475C815A4928C0053396A /* Build configuration list for PBXNativeTarget "Jul5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB475C915A4928C0053396A /* Debug */,
+				ABB475CA15A4928C0053396A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB475A715A4928C0053396A /* Project object */;
+}
